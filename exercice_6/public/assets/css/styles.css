@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    padding: 3%;
+    background-image: url("../img/php.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+header>div {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+img {
+    width: 20%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3.6rem;
+    color: white;
+}
+
+main {
+    padding: 3%;
+    font-size: 1.8rem;
+}
+
+.displayNone {
+    display: none;
+}
+
+#answer>div {
+    padding: 3%;
+    background-color: #AEB2D5;
+}
+
+footer {
+    font-size: 1.6rem;
+    position: fixed;
+    bottom: 0;
+}
+
+#question>h2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2>span:not(#chevron) {
+    border-bottom: 1px solid;
+}
